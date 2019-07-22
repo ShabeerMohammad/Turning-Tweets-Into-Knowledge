@@ -38,6 +38,7 @@ corpus = tm_map(corpus, tolower)
 
 corpus[[1]]
 
+# Convert corpus into Plain text document
 corpus = tm_map(corpus, PlainTextDocument)
 
 
